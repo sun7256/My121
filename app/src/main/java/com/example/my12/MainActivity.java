@@ -42,6 +42,7 @@ private Button button;
         return super.onOptionsItemSelected(item);
     }
 
+
     public void initView(){
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
